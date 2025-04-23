@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.girl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    border: #f80202 60px solid;
+}
+.image{
+    width: 550px;
+    height: 550px;
+    margin-top: 5px;
+}
+.name{
+    font-size: 50px;
+    color: black;margin-top: 10px;
+    margin-left: 30px;
+}
+.user{
+    display: block;
+    margin-top: -100px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.us_name{
+    display: block;
+    border: 0.5px solid black;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 300px;
+    height: 40px;
+
+
+}
+.password{
+    display: block;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.password__type{
+    display: block;
+    border: 0.5px solid black;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 300px;
+    height: 40px;
+
+}
+.Remomber{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 530;
+    margin-top: -20px;
+    margin-left: 40px;
+
+}
+.remomber{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.Login__btn{
+    border: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: #f80202;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    a{
+        color: white;
+    }
+}
+.Forgot{
+    display: block;
+    color: rgba(0, 0, 0, 0.418);
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.accaunt{
+    display: block;
+    color: rgba(0, 0, 0, 0.418);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.Image{
+    background: #f80202;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+@media (max-width: 1000px) {
+    .girl {
+      flex-direction: column;
+      border-width: 30px;        
+      margin-top: 50px;
+    }
+  
+    .Image {
+      width: 100%;
+      margin-top: 30px;
+    }
+  
+    .header__img img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 990px) {
+    .header__img {
+      display: none;
+    }
+    .Image {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .girl{
+        background: url(./image/betiful__girl.jpg);
+        background-size: cover;
+    }
+  }
+  @media (max-width: 425px) {
+    .girl{
+        border: 15px solid red;
+        background: url(./image/betiful__girl.jpg);
+        background-size: cover;
+    }
+
+  }
+  @media (max-width: 375px){
+    .girl{
+        border: 20px solid red;
+        background: url(./image/betiful__girl.jpg);
+        background-size: cover;
+    }
+    .name{
+        font-size: 30px;
+        margin-left: 80px;
+    }
+    .user{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .us_name{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .password{
+        display: block;
+        font-size: 18px;
+        margin-left: 30px;
+        
+    }
+    .password__type{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .remomber{
+        margin-left: 30px;
+    }
+    .Remomber{
+        display: block;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .Login__btn{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .Forgot{
+        margin-top: -20px;
+    }
+  }
+  @media (max-width:320px){
+        .girl{
+        border: 10px solid red;
+        background: url(./image/betiful__girl.jpg);
+        background-size: cover;
+    }
+    .name{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    .user{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .us_name{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .password{
+        display: block;
+        font-size: 18px;
+        margin-left: 30px;
+        
+    }
+    .password__type{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .remomber{
+        margin-left: 30px;
+    }
+    .Remomber{
+        display: block;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .Login__btn{
+        display: block;
+        width: 200px;
+        margin-left: 30px;
+    }
+    .Forgot{
+        margin-top: -20px;
+    }
+  }
